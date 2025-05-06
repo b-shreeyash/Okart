@@ -10,7 +10,7 @@ const authRoutes = require('./routes/auth');
 const cors = require('cors');
 const { verifyToken, isAdmin } = require('./middleware/auth-middleware');
 const app   = express();
-const port = 3000;
+const port = 1000;
 
 app.use(cors());
 app.use(express.json());
